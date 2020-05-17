@@ -59,7 +59,7 @@ function handleDelete(name) {
                     cart.removeChild(item);
 
                     itemData = itemData.filter(function (item) {
-                        console.log(name);
+                        console.log(item !== name);
                         return item !== name;
                     });
 
